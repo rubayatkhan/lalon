@@ -1,0 +1,18 @@
+{
+  "portrait": {
+    "author": "Jyotirindranath Tagore",
+    "date": "1889 (per Commons catalogue)",
+    "source": "https://commons.wikimedia.org/wiki/File:Fakir_Lalon_Shah.jpg",
+    "rights": "Public domain per Commons catalogue"
+  },
+  "fonts": {
+    "families": [
+      "Cormorant Garamond",
+      "Jost",
+      "Noto Serif Bengali"
+    ],
+    "source": "Google Fonts",
+    "rights": "SIL Open Font License; see https://fonts.google.com/attribution"
+  },
+  "courtyard": "Original abstract SVG illustration for this site; not a historic reconstruction."
+}

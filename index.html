@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#281e30">
+  <meta name="description" content="Enter the world of Lalon: Bengali songs, new English readings, philosophy, living performances, and a source-linked research archive.">
+  <title>City of Mirrors — The world of Lalon</title>
+  <link rel="icon" type="image/svg+xml" href="assets/mirror.svg">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="City of Mirrors home"><img src="assets/mirror.svg" width="34" height="42" alt=""><span>City of Mirrors<small>The world of Lalon</small></span></a>
+    <button class="mobile-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#/journey">Begin</a><a href="#/songs">Songs</a><a href="#/philosophy">Philosophy</a><a href="#/connections">Connections</a><a href="#/listen">Listen</a><a href="#/research">Research</a>
+    </nav>
+    <a class="header-save" href="#/songs?saved=1" aria-label="Open saved songs">♡ <span>Saved</span><b id="saved-count">0</b></a>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading">Opening the courtyard…</div></main>
+  <footer class="site-footer"><div class="footer-brand"><span lang="bn">লালন</span><p>A place to listen.<br>A reason to look again.</p></div><div><a href="#/life">Life & legacy</a><a href="#/glossary">Words to know</a><a href="#/edition">Read the supplied collection</a><a href="#/research">Sources & editorial care</a><p>Inspired by the fellowship of the akhra.<br>Original songs, living questions.<br>Independent project · named for Arshinagar.</p></div><div><p>Research collection · 4 October 2026</p><p>English renderings are new and labeled.<br>Edition attribution is not proof of authorship.</p><a href="data/archive.json" download="lalon-archive.json">Download the public archive</a></div></footer>
+  <dialog id="reader" aria-labelledby="reader-title"><div id="reader-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
